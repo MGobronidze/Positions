@@ -39,6 +39,7 @@ h2{
 }
 .process-text{
   text-align: center;
+  margin-bottom: 41px;
 }
 .process-p{
     font-size: 18px;
@@ -51,4 +52,57 @@ h2{
     line-height: 48px;
     color: #37393F;
     font-weight: 700;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 366px;
+    background-color: #F4F4F4;    
+    height: 383px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-content{
+    width: 300px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-h{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #37393F;
+}
+.box-p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7D7D7D;
+}
+.box-testimonial{
+    color: #6B77E5;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;  
+}
+.box-image-background{
+    width: 72px;
+    height: 72px;
+    background-color: #40DDB6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.middle{
+    background-color: #6B77E5;
 }
