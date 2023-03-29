@@ -1,0 +1,54 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    display: flex;
+    width: 1220px;
+    justify-content: space-between;
+    margin: 66px auto 150px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #37393F;
+    align-items: center;
+}
+.get-consulting{
+    color: #ffffff;
+    background-color: #6B77E5;
+    width: 184px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    width: 200px;
+}
+.nav-pages{
+    width: 825px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.process{
+    width: 1220px;
+    margin: 0 auto;    
+    
+}
+.process-text{
+  text-align: center;
+}
+.process-p{
+    font-size: 18px;
+    line-height: 22px;
+    color: #37393F;
+    font-weight: 500;
+}
+.process-h{
+    font-size: 40px;
+    line-height: 48px;
+    color: #37393F;
+    font-weight: 700;
+}
