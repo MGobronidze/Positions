@@ -8,11 +8,20 @@ h2{
     display: flex;
     width: 1220px;
     justify-content: space-between;
-    margin: 66px auto 150px;
+    margin: 53px auto 150px;
     font-size: 18px;
     line-height: 21px;
     color: #37393F;
     align-items: center;
+    
+   
+}
+.header-parent{
+    width: 100%;
+    height: 118px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 50;
 }
 .get-consulting{
     color: #ffffff;
@@ -34,7 +43,8 @@ h2{
 }
 .process{
     width: 1220px;
-    margin: 0 auto;    
+    margin: 0 auto;
+    padding-top: 254px;    
     
 }
 .process-text{
@@ -107,28 +117,35 @@ h2{
     background-color: #6B77E5;
 }
 .image{
-    width: 1920px;
+    width: 100%;
     height: 557px;
     margin: 35px auto 135px;
-    background-image: url('/images/Image.png');
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.image-wrapper{
+    position: relative;
 }
 .image-content{
     width: 511px;
     height: 271px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .image-text-content{
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: absolute;
+    align-items: center;
 }
+
 
 .image-p1{
     font-size: 18px;
@@ -187,38 +204,23 @@ h2{
     line-height: 48px;
 }
 
-.team-box{
-    height: 532px;
-    width: 1220px;
-}
 .team-members{
     width: 1220px;
     display: flex;
     justify-content: space-between;
 }
-.team-member1{
-    height: 532px;
-    width: 386px;
-    background-image: url('/images/Image.svg');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+
+.team-box{
+    height: 114px;
+    width: 341px;
+    position: absolute;
+    left: 22px;
+    bottom: 22px;
+ 
 }
-.team-member2{
-    height: 532px;
-    width: 386px;
-    background-image: url('/images/Image1.svg');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-.team-member3{
-    height: 532px;
-    width: 386px;
-    background-image: url('/images/Image2.svg');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+
+.team-image-wrapper{
+    position: relative;
 }
 
 .member-info{
@@ -228,7 +230,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    padding-top: 24px;
 }
 .member-name{
     font-size: 25px;
@@ -236,7 +238,7 @@ h2{
     line-height: 38px;
     color: #37393F;
 }
-.member-ocupatio{
+.member-occupation{
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
